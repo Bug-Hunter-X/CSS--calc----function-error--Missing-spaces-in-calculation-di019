@@ -1,0 +1,9 @@
+The corrected CSS uses proper spacing within the `calc()` function to ensure accurate calculation:
+
+```css
+.container {
+  width: calc(100% - 10px);
+}
+```
+
+This fixes the error by providing the required spaces between the `100%`, the `-` operator, and the `10px` operand.
